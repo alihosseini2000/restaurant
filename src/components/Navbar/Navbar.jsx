@@ -60,7 +60,7 @@ const Navbar = () => {
                 <a href="#about" onClick={() => setToggleMenu(false)}>About</a>
               </li>
               <li className="p__opensans">
-                <a href="#menu">Menu</a>
+                <a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a>
               </li>
               <li className="p__opensans">
                 <a href="#awards" onClick={() => setToggleMenu(false)}>Awards</a>
